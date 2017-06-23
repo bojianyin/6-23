@@ -1,0 +1,13 @@
+错误页面的定制     只给前台定制（conf/Index/config.php）
+‘TMPL_EXCEPTION_FILE’=>'./Public/Tpl/error.html'
+
+
+hash('....')
+$e['message'];    //以上函数的参数 可以打印到error页面上
+
+
+preg_match_all('/\[.*?\]/is',$content,$arr);
+存到$arr里
+
+$phiz=F("wenjian","","./Data/");
+str_replace($v,str,$con);
